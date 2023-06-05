@@ -1,0 +1,54 @@
+{
+    "os": "Linux-5.15.0-1038-azure-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-06-05T18:19:40.090787",
+    "startedAt": "2023-06-05T18:19:39.388622",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlz",
+        "--wandb_entity",
+        "polixonrio",
+        "--data_artifact",
+        "polixonrio/mlz/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/workspaces/mlops-zoomcamp/cohorts/2023/02-experiment-tracking/homework-wandb/train.py",
+    "codePath": "cohorts/2023/02-experiment-tracking/homework-wandb/train.py",
+    "git": {
+        "remote": "https://github.com/DataTalksClub/mlops-zoomcamp",
+        "commit": "ac5ac89b9f6a921b0216243472a1339c9de2b2ca"
+    },
+    "email": "polixonrio@gmail.com",
+    "root": "/workspaces/mlops-zoomcamp",
+    "host": "codespaces-1113a2",
+    "username": "codespace",
+    "executable": "/home/codespace/.python/current/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2593.906,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2593.906,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.906,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 31.32598876953125,
+        "used": 12.312416076660156
+    },
+    "memory": {
+        "total": 3.8339385986328125
+    }
+}
